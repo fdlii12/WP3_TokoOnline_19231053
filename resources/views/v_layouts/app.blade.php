@@ -58,7 +58,7 @@
                     <!-- Logo -->
                     <div class="header-logo">
                         <a class="logo" href="#">
-                            <img src="{{ asset('image/logo_ubsi.png') }}" alt="">
+                            <img src="{{ asset('image/logo.png') }}" alt="">
                         </a>
                     </div>
                     <!-- /Logo -->
@@ -91,7 +91,7 @@
                                         class="fa fa-caret-down"></i></strong>
                             </div>
                             <ul class="custom-menu">
-                                <li><a href="#"><i class="fa fa-user-o"></i> Akun Saya</a></li>
+                                <li><a href="{{ route('customer.akun', ['id' => Auth::user()->id]) }}"><i class="fa fa-user-o"></i> Akun Saya</a></li>
                                 <li><a href="#"><i class="fa fa-check"></i> History</a></li>
                                 <li>
                                     <a href="#"
@@ -193,7 +193,7 @@
                 <div id="home-slick">
                     <!-- banner -->
                     <div class="banner banner-1">
-                        <img src="{{ asset('frontend/banner/banner01.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/banner/img_slide01.jpg') }}" alt="">
                         <div class="banner-caption text-center">
                             <h1>Jajanan Tradisional</h1>
                             <h3 class="white-color font-weak">Khas Makanan Indonesia</h3>
@@ -204,7 +204,7 @@
 
                     <!-- banner -->
                     <div class="banner banner-1">
-                        <img src="{{ asset('frontend/banner/banner02.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/banner/img_slide02.jpg') }}" alt="">
                         <div class="banner-caption">
                             <h1 class="primary-color">Khas Makanan Indonesia<br><span
                                     class="white-color font-weak">Jajanan Tradisional</span></h1>
@@ -215,7 +215,7 @@
 
                     <!-- banner -->
                     <div class="banner banner-1">
-                        <img src="{{ asset('frontend/banner/banner03.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/banner/img_slide03.jpg') }}" alt="">
                         <div class="banner-caption">
                             <h1 class="white-color">Khas Makanan <span>Indonesia</span></h1>
                             <button class="primary-btn">Pesan Sekarang</button>

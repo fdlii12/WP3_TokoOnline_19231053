@@ -33,8 +33,7 @@
                                     <form method="POST" action="#" style="display: inlineblock;">
                                         @method('delete')
                                         @csrf
-                                        <button type="submit" class="btn btn-danger btn-sm
-show_confirm" data-konf-delete="{{ $row->nama}}" title='Hapus Data'>
+                                        <button type="submit" class="btn btn-danger btn-smshow_confirm" data-konf-delete="{{ $row->nama}}" title='Hapus Data'>
                                             <i class="fas fa-trash"></i> Hapus</button>
                                     </form>
                                 </td>
