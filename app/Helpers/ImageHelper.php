@@ -52,7 +52,6 @@ class ImageHelper
                 imagegif($image, $destinationPath . '/' . $fileName);
             break;
         }
-        
         imagedestroy($image);
         return $fileName;
     }

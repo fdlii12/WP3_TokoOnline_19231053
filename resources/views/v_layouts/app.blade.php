@@ -58,7 +58,7 @@
                     <!-- Logo -->
                     <div class="header-logo">
                         <a class="logo" href="#">
-                            <img src="{{ asset('image/logo.png') }}" alt="">
+                            <img src="{{ asset('image/logo_ubsi.png') }}" alt="">
                         </a>
                     </div>
                     <!-- /Logo -->

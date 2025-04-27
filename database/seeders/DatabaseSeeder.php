@@ -24,29 +24,29 @@ class DatabaseSeeder extends Seeder
         ]);
         #untuk record berikutnya silahkan, beri nilai berbeda pada nilai: nama, email, hp dengan nilai masing-masing anggota kelompok
         User::create([
-            'nama' => 'Reza Maulana',
-            'email' => 'rezamaulana.kuliah@gmail.com',
+            'nama' => 'Dzaki Fadhli',
+            'email' => 'Dzakifadhli1255@gmail.com',
             'role' => '0',
             'status' => 1,
-            'hp' => '089693612443',
-            'password' => bcrypt('P@55word'),
+            'hp' => '087841729358',
+            'password' => bcrypt('19231053'),
         ]);
 
         #data kategori
         Kategori::create([
-            'nama_kategori' => 'Brownies',
+            'nama_kategori' => 'Pontianak-Sambas',
         ]);
         Kategori::create([
-            'nama_kategori' => 'Combro',
+            'nama_kategori' => 'Pontianak-Singkawang',
         ]);
         Kategori::create([
-            'nama_kategori' => 'Dawet',
+            'nama_kategori' => 'Pontianak-Sintang',
         ]);
         Kategori::create([
-            'nama_kategori' => 'Mochi',
+            'nama_kategori' => 'Sambas-Pontianak',
         ]);
         Kategori::create([
-            'nama_kategori' => 'Wingko',
+            'nama_kategori' => 'Singkawang-Pontianak',
         ]);
     }
 }
